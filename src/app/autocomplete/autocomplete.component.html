@@ -1,0 +1,20 @@
+<div>
+  <h3 class="first">
+    Example of how to limit choices using autocomplete of primeng
+  </h3>
+  <p-autoComplete
+    #autoComplete
+    [(ngModel)]="country"
+    [suggestions]="filteredCountries"
+    (completeMethod)="search($event)"
+    (onFocus)="!autoComplete.filteredCountries && autoComplete.handleDropdownClick()"
+    (onSelect)="selected()"
+    (onUnselect)="unSelected()"
+    field="name"
+    [size]="30"
+    placeholder="Countries"
+    emptyMessage="No results founds"
+    [forceSelection]="true"
+    [multiple]="true"
+  ></p-autoComplete>
+</div>
