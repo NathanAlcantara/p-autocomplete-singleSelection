@@ -1,6 +1,6 @@
 # SingleSelection - Autocomplete - Primeng
 
-Just a scrath of how can you use multiselection of autocomplete and tranforming to a singleselection with tags, where prevents users editing the object inside component and become more easy to clean that
+Just a sketch of how can you use multiselection of autocomplete and transforming to a singleselection with tags, where prevents users edit the object inside component and become more easy to clean that
 
 ## Init Project
 
